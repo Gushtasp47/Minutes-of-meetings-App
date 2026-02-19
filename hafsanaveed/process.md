@@ -60,3 +60,17 @@ git commit -m "Initial setup: create personal directory and process.md"
 
 ### Squash last 3 commits in 1
 - git rebase -i HEAD~3
+In editor: change to
+pick first
+squash second
+squash third
+
+
+### Reword Older commit
+- git rebase -i HEAD~5
+In editor: change to
+pick first
+pick second
+pick third
+reword forth
+pick fifth
