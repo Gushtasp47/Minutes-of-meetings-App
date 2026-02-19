@@ -41,3 +41,6 @@ git commit -m "Initial setup: create personal directory and process.md"
 - git rebase hafsanaveed-feature
 - git add hafsanaveed/process.md
 - git rebase --continue
+
+### Show compact visual history after rebase
+- git log --oneline --graph --decorate --all
