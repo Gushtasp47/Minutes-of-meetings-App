@@ -44,3 +44,16 @@ git commit -m "Initial setup: create personal directory and process.md"
 
 ### Show compact visual history after rebase
 - git log --oneline --graph --decorate --all
+
+
+### Create and commit .env file by mistake
+- git add hafsanaveed/.env
+- git commit -m "Phase 2: accidentally add .env"
+
+
+### Untrack .env, add to gitignore and amend previous commit to remove .env
+- git rm --cached hafsanaveed/.env
+- echo .env > .gitignore
+- git add .gitignore
+- git commit --amend --no-edit
+
