@@ -17,3 +17,6 @@
 
 ### For documenting all steps    
 - Created process.md with initial header 
+
+### Create secondary branch for conflict simulation (Phase 1)
+- git checkout -b hafsanaveed-feature
