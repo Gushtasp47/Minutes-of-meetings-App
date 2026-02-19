@@ -18,8 +18,21 @@
 ### For documenting all steps    
 - Created process.md with initial header 
 
+### commit process.md
+git add hafsanaveed/process.md
+git commit -m "Initial setup: create personal directory and process.md"
+
 ### Create secondary branch for conflict simulation (Phase 1)
 - git checkout -b hafsanaveed-feature
 
+### Add changes and commit on hafsanaveed-feature
+- git add hafsanaveed/process.md
+- git commit -m "Phase 1: modify process.md on feature branch"
+
 ### Switch back to personal branch
 - git checkout hafsanaveed
+
+### Add changes and commit on hafsanaveed
+- git add hafsanaveed/process.md
+- git commit -m "Phase 1: modify process.md on hafsanaveed branch"
+
