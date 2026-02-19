@@ -57,3 +57,6 @@ git commit -m "Initial setup: create personal directory and process.md"
 - git add .gitignore
 - git commit --amend --no-edit
 
+
+### Squash last 3 commits in 1
+- git rebase -i HEAD~3
