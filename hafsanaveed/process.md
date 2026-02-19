@@ -20,3 +20,6 @@
 
 ### Create secondary branch for conflict simulation (Phase 1)
 - git checkout -b hafsanaveed-feature
+
+### Switch back to personal branch
+- git checkout hafsanaveed
