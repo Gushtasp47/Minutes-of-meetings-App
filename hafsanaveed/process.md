@@ -88,3 +88,8 @@ drop sixth
 
 ###  Push branch to origin
 - git push origin hafsanaveed
+
+### Add Local commit
+git add hafsanaveed/process.md
+git commit -m "Phase 4: new local commit"
+
