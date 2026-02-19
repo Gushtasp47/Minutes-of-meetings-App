@@ -74,3 +74,14 @@ pick second
 pick third
 reword forth
 pick fifth
+
+
+### Remove Older commit
+- git rebase -i HEAD~6
+In editor: change to
+pick first
+pick second
+pick third
+pick forth
+pick fifth
+drop sixth
