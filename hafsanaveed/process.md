@@ -18,9 +18,9 @@
 ### For documenting all steps    
 - Created process.md with initial header 
 
-### commit process.md
-git add hafsanaveed/process.md
-git commit -m "Initial setup: create personal directory and process.md"
+### Commit process.md
+- git add hafsanaveed/process.md
+- git commit -m "Initial setup: create personal directory and process.md"
 
 ### Create secondary branch for conflict simulation (Phase 1)
 - git checkout -b hafsanaveed-feature
@@ -93,3 +93,6 @@ drop sixth
 git add hafsanaveed/process.md
 git commit -m "Phase 4: new local commit"
 
+### Get Latest from Remote and Safe update - resolve if conlicts
+- git fetch origin 
+- git merge origin/hafsanaveed
