@@ -36,3 +36,8 @@ git commit -m "Initial setup: create personal directory and process.md"
 - git add hafsanaveed/process.md
 - git commit -m "Phase 1: modify process.md on hafsanaveed branch"
 
+
+### Rebase branch
+- git rebase hafsanaveed-feature
+- git add hafsanaveed/process.md
+- git rebase --continue
