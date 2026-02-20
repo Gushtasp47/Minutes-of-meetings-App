@@ -127,4 +127,22 @@ git commit -am "Phase 6: commit 5 good"
 - git bisect reset   
 
 ### Add bug fixed commit
-git commit -am "Phase 6: bug fixed"
+- git commit -am "Phase 6: bug fixed"
+
+
+### Check inegrity of repo
+- git fsck --full
+
+
+### Check current status
+- git status
+- git branch -v
+- git remote -v
+
+
+### Display visual commit tree
+- git log --graph --oneline --decorate --all
+
+
+### push to repo
+git push origin hafsanaveed
