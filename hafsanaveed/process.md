@@ -106,3 +106,6 @@ git commit -m "Phase 4: new local commit"
 - git push origin --delete hafsanaveed-temp
 
 
+### Find hash and recover branch
+- git reflog
+- git branch hafsanaveed-recovered <hash>
