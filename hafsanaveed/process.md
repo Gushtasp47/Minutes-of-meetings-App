@@ -112,12 +112,12 @@ git commit -m "Phase 4: new local commit"
 
 
 ### create six commits with bug in one commit
-git add hafsanaveed/bugfile.txt
-git commit -m "Phase 6: commit 1 good"
-git commit -am "Phase 6: commit 2 good"
-git commit -am "Phase 6: commit 3 bug introduced"
-git commit -am "Phase 6: commit 4 good"
-git commit -am "Phase 6: commit 5 good"
+- git add hafsanaveed/bugfile.txt
+- git commit -m "Phase 6: commit 1 good"
+- git commit -am "Phase 6: commit 2 good"
+- git commit -am "Phase 6: commit 3 bug introduced"
+- git commit -am "Phase 6: commit 4 good"
+- git commit -am "Phase 6: commit 5 good"
 
 
 ### Identify bad commit and mark it
@@ -145,4 +145,4 @@ git commit -am "Phase 6: commit 5 good"
 
 
 ### push to repo
-git push origin hafsanaveed
+- git push origin hafsanaveed
