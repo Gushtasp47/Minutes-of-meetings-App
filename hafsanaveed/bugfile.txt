@@ -1,5 +1,5 @@
 Commit 1: good 
 Commit 2: good 
-Commit 3: Bug
+Commit 3: Bug fixed
 Commit 4: good 
 Commit 5: good
