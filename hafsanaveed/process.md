@@ -96,3 +96,13 @@ git commit -m "Phase 4: new local commit"
 ### Get Latest from Remote and Safe update - resolve if conlicts
 - git fetch origin 
 - git merge origin/hafsanaveed
+
+### Create and Delete a temp branch
+- git checkout -b hafsanaveed-temp
+- git push origin hafsanaveed-temp
+
+- git checkout hafsanaveed
+- git branch -D hafsanaveed-temp
+- git push origin --delete hafsanaveed-temp
+
+
