@@ -90,8 +90,8 @@ drop sixth
 - git push origin hafsanaveed
 
 ### Add Local commit
-git add hafsanaveed/process.md
-git commit -m "Phase 4: new local commit"
+- git add hafsanaveed/process.md
+- git commit -m "Phase 4: new local commit"
 
 ### Get Latest from Remote and Safe update - resolve if conlicts
 - git fetch origin 
