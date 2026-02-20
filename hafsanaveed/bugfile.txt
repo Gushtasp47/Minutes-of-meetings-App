@@ -1,2 +1,3 @@
 Commit 1: good 
 Commit 2: good 
+Commit 3: Bug
